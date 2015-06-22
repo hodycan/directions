@@ -75,7 +75,7 @@ var buildUrl = function(locationStrings) {
     }
     firstLocation = "&from=" + newLocationStrings[0];
     nextLocationTemp = "&to=";
-    baseUrl = 'http://open.mapquestapi.com/directions/v2/route?key='                                                                                                                                                            + 'Fmjtd%7Cluu821u2n5%2Crn%3Do5-94a5ha';
+    baseUrl = 'https://open.mapquestapi.com/directions/v2/route?key='                                                                                                                                                            + 'Fmjtd%7Cluu821u2n5%2Crn%3Do5-94a5ha';
     subsequentLocations = '';
     for (var i=1; i<newLocationStrings.length; i++) {
         subsequentLocations += nextLocationTemp + newLocationStrings[i];
