@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+body {
+    font-family: "Open Sans", "sans-serif";
+    color: #dcdcdc;
+    background-blend-mode: luminosity;
+    /*background: #2E4172;*/
+    background: url("background.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.searchbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background: #535353;
+    text-align: center;
+}
+
+.searchbox h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 10px 10px 10px 5px;
+    margin-bottom: 0;
+}
+
+.searchbox form {
+    padding: 15px 10px 15px 10px;
+}
+
+.searchbox form input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    border: solid 5px #434343;
+    transition: border 0.3s;
+
+}
+
+.directionslist {
+    padding: 15px 15px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background: #535353;
+}
+
+.directionslist table {
+    border-collapse: collapse;
+}
+
+.directionslist table tr td, th{
+    background: #264766;
+    padding: 10px 10px 10px 10px;
+    height: 30px;
+    border: 5px solid #535353;
+    margin: 0;
+}
+
+.directionslist table tr th {
+    text-align: left;
+}
+
+.distance {
+    font-weight: bold;
+    text-align: right;
+}
+
+.btn {
+  border-radius: 2px;
+  border: 0 none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 12px;
+  background: none repeat scroll 0 0 #444444;
+  padding: 10px 20px 10px 20px;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  background: none repeat scroll 0 0 #999999;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding: 7px 10px;
+  text-transform: none;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: auto;
+}
+
+.footer p {
+    font-size: 6pt;
+    color: #cbcbcb;
+}
